@@ -4,7 +4,7 @@ public class Sulfuras extends Item{
     }
 
     @Override
-    public void updateQuality() {
-        // Nothing because for some reason Sulfuras doesn't need any update quality
+    public void updateParams() {
+        // Does nothing because for some reason Sulfuras doesn't need any update quality
     }
 }

@@ -4,11 +4,13 @@ public class BackstagePass extends Item {
     }
 
     @Override
-    public void updateQuality() {
+    public void updateParams() {
         increaseQualityByOne();
+
         if (sellIn < 0) {
             increaseQualityByOne(); 
         }
+
         decreaseSellInByOne(); 
     }
 }
